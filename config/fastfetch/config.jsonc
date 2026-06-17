@@ -66,7 +66,7 @@
       "type": "command",
       "key": "\ue900 OS",
       "keyColor": "blue",
-      "text": "version=$(omarchy-version); echo \"Omarchy $version\""
+      "text": "source /etc/os-release; omarchy=$(omarchy-version); echo \"$PRETTY_NAME → Omarchy $omarchy\""
     },
     {
       "type": "command",
