@@ -3,7 +3,6 @@
 * {
   background-color: @background;
   color: @foreground;
-
   border: none;
   border-radius: 0;
   min-height: 0;
@@ -12,18 +11,18 @@
 }
 
 .modules-left {
-  margin-left: 8px;
+  margin-bottom: 8px;
 }
 
 .modules-right {
-  margin-right: 8px;
+  margin-top: 8px;
 }
 
 #workspaces button {
   all: initial;
-  padding: 0 6px;
-  margin: 0 1.5px;
-  min-width: 9px;
+  padding: 6px 0;
+  margin: 1.5px 0;
+  min-height: 9px;
 }
 
 #workspaces button.empty {
@@ -31,28 +30,29 @@
 }
 
 #cpu,
+#memory,
+#custom-media,
 #battery,
 #pulseaudio,
-#custom-omarchy,
 #custom-update {
-  min-width: 12px;
-  margin: 0 7.5px;
+  min-height: 12px;
+  margin: 7.5px 0;
 }
 
 #tray {
-  margin-right: 16px;
+  margin-top: 16px;
 }
 
 #bluetooth {
-  margin-right: 17px;
+  margin-top: 17px;
 }
 
 #network {
-  margin-right: 13px;
+  margin-top: 13px;
 }
 
 #custom-expand-icon {
-  margin-right: 18px;
+  margin-top: 18px;
 }
 
 tooltip {
@@ -63,17 +63,17 @@ tooltip {
   font-size: 10px;
 }
 
-#clock {
-  margin-left: 8.75px;
+#custom-clock {
+  margin-bottom: 8.75px;
 }
 
 #custom-weather {
-  margin-left: 7.5px;
-  margin-right: 7.5px;
+  margin-bottom: 7.5px;
+  margin-top: 7.5px;
 }
 
 #custom-weather.unavailable {
-  min-width: 0;
+  min-height: 0;
   margin: 0;
   padding: 0;
 }
@@ -85,11 +85,11 @@ tooltip {
 #custom-screenrecording-indicator,
 #custom-idle-indicator,
 #custom-notification-silencing-indicator {
-  min-width: 12px;
-  margin-left: 5px;
-  margin-right: 0;
+  min-height: 12px;
+  margin-bottom: 5px;
+  margin-top: 0;
   font-size: 10px;
-  padding-bottom: 1px;
+  padding-right: 1px;
 }
 
 #custom-screenrecording-indicator.active {
@@ -102,8 +102,8 @@ tooltip {
 }
 
 #custom-voxtype {
-  min-width: 12px;
-  margin: 0 0 0 7.5px;
+  min-height: 12px;
+  margin: 0 0 7.5px 0;
 }
 
 #custom-voxtype.recording {
