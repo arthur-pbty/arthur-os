@@ -3,10 +3,10 @@
   "layer": "top",
   "position": "left",
   "spacing": 0,
-  "height": 26,
+  "width": 35,
   "modules-left": ["custom/clock", "custom/weather", "cpu", "memory"],
   "modules-center": ["custom/update", "hyprland/workspaces", "custom/voxtype", "custom/screenrecording-indicator", "custom/idle-indicator", "custom/notification-silencing-indicator"],
-  "modules-right": ["group/tray-expander", "bluetooth", "network", "pulseaudio", "battery"],
+  "modules-right": ["group/tray-expander", "pulseaudio", "bluetooth", "network", "battery"],
   "hyprland/workspaces": {
     "on-click": "activate",
     "format": "{icon}",
