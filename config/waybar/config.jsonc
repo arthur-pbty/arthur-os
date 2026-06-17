@@ -4,7 +4,7 @@
   "position": "left",
   "spacing": 0,
   "width": 35,
-  "modules-left": ["custom/clock", "custom/weather", "cpu", "memory"],
+  "modules-left": ["custom/clock", "custom/weather", "cpu", "memory", "custom/media"],
   "modules-center": ["custom/update", "hyprland/workspaces", "custom/voxtype", "custom/screenrecording-indicator", "custom/idle-indicator", "custom/notification-silencing-indicator"],
   "modules-right": ["group/tray-expander", "pulseaudio", "bluetooth", "network", "battery"],
   "hyprland/workspaces": {
@@ -143,7 +143,7 @@
     "modules": ["custom/expand-icon", "tray"]
   },
   "custom/expand-icon": {
-    "format": "",
+    "format": "",
     "tooltip": false,
     "on-scroll-up": "",
     "on-scroll-down": "",
